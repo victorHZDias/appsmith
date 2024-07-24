@@ -19,7 +19,12 @@ export default {
 							label: element,
 							value: element
 						});
+
     }
+						cargos.push({
+							label: "MARCOS",
+							value: "MARCOS"
+						});
 		return cargos;
 	},
 	
