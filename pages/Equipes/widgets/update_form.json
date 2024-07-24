@@ -447,7 +447,7 @@
     "bottomRow": 89,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Atualizar linha: {{data_table.selectedRow.id}}",
+    "title": "Atualizar Colaborador ru: {{data_table.selectedRow.RU}}",
     "hideCard": false,
     "parentColumnSpace": 16.3125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],

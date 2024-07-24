@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM Equipe_Completa;",
+      "body": "SELECT * FROM Equipe_Completa\nWHERE \n  REPORTE = (\n    SELECT '{{SelectReporte.selectedOptionLabel}}'\n    WHERE '{{SelectReporte.selectedOptionLabel}}' != ''\n  )\n  OR '{{SelectReporte.selectedOptionLabel}}' = '';\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -27,11 +27,17 @@
       ]
     },
     "executeOnLoad": true,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "SelectReporte.selectedOptionLabel"
+    ],
     "userSetOnLoad": true,
     "confirmBeforeExecute": false,
     "policies": [],

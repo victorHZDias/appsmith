@@ -58,7 +58,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1721735734442,
+    "columnUpdatedAt": 1721831904309,
     "primaryColumnId": "id",
     "columnSizeMap": {
         "task": 245,
@@ -87,7 +87,7 @@
         {"key": "tableData"}
     ],
     "displayName": "Table",
-    "bottomRow": 85,
+    "bottomRow": 91,
     "parentRowSpace": 10,
     "columnWidthMap": {"Nome_Colaborador": 325},
     "hideCard": false,
@@ -252,7 +252,7 @@
             "allowCellWrapping": false,
             "index": 8,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "FOTO",
             "fontStyle": "",
             "textColor": "",
@@ -481,7 +481,7 @@
             "allowCellWrapping": false,
             "index": 10,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "id",
             "fontStyle": "",
             "textColor": "",

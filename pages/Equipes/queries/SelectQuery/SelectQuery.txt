@@ -1,1 +1,7 @@
-SELECT * FROM Equipe_Completa;
+SELECT * FROM Equipe_Completa
+WHERE 
+  REPORTE = (
+    SELECT '{{SelectReporte.selectedOptionLabel}}'
+    WHERE '{{SelectReporte.selectedOptionLabel}}' != ''
+  )
+  OR '{{SelectReporte.selectedOptionLabel}}' = '';

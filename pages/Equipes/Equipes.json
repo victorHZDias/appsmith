@@ -29,14 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Equipes_SelectQuery",
-              "name": "SelectQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Equipes_situacao",
               "name": "situacao",
               "confirmBeforeExecute": false,
@@ -68,6 +60,31 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Equipes_SelectQuery",
+              "name": "SelectQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "SelectReporte.selectedOptionLabel"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Equipes_selectCargos.selectReporte",
+              "name": "selectCargos.selectReporte",
+              "collectionId": "Equipes_selectCargos",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "function () {\n  const cargos = [];\n  for (let i = 0; i < reporte.data.length; i++) {\n    const element = reporte.data[i].Nome_Colaborador;\n    cargos.push({\n      label: element,\n      value: element\n    });\n  }\n  cargos.push({\n    label: \"MARCOS\",\n    value: \"MARCOS\"\n  });\n  return cargos.sort((a, b) => a.label.localeCompare(b.label));\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

@@ -8,7 +8,7 @@ export default {
 							value: element
 						});
     }
-		return cargos;
+		return cargos.sort((a, b) => a.label.localeCompare(b.label));
 	},
 	
 		selectReporte () {
@@ -25,7 +25,7 @@ export default {
 							label: "MARCOS",
 							value: "MARCOS"
 						});
-		return cargos;
+		return cargos.sort((a, b) => a.label.localeCompare(b.label));
 	},
 	
 			selectEquipe () {
@@ -37,7 +37,7 @@ export default {
 							value: element
 						});
     }
-		return cargos;
+		return cargos.sort((a, b) => a.label.localeCompare(b.label));
 	},
 	
 				selectSit () {
@@ -49,6 +49,6 @@ export default {
 							value: element
 						});
     }
-		return cargos;
+		return cargos.sort((a, b) => a.label.localeCompare(b.label));
 	},
 }
