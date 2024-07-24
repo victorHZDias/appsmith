@@ -1,0 +1,1 @@
+SELECT DISTINCT SIT_ATUAL FROM Equipe_Completa;

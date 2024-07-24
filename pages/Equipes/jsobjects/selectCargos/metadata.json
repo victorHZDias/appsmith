@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "selectCargos",
+    "pageId": "Equipes",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Equipes_selectCargos",
+  "deleted": false,
+  "gitSyncId": "669d6782a4fa217d8e412e25_39ff1c25-5cce-477c-a598-9ae06f43b143"
+}

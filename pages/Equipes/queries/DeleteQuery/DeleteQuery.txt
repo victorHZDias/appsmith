@@ -1,0 +1,2 @@
+DELETE FROM Equipe_Completa
+  WHERE id = {{data_table.triggeredRow.id}};

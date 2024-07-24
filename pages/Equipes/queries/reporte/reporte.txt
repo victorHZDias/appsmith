@@ -1,0 +1,3 @@
+
+SELECT Nome_Colaborador FROM Equipe_Completa
+WHERE CARGO='AVANÇADO';

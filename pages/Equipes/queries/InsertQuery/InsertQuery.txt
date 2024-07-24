@@ -1,0 +1,26 @@
+INSERT INTO Equipe_Completa (
+	RU,
+	MATRICULA,
+	Nome_Colaborador,
+	CARGO,
+	REPORTE,
+	EQUIPE,
+	SIT_ATUAL,
+	DATA_RETORNO,
+	FOTO,
+	ANIVERSARIO,
+	EMAIL
+)
+VALUES (
+	'{{insert_form.formData.RU}}',
+	'{{insert_form.formData.MATRICULA}}',
+	'{{insert_form.formData.Nome_Colaborador}}',
+	'{{insert_form.formData.CARGO}}',
+	'{{insert_form.formData.REPORTE}}',
+	'{{insert_form.formData.EQUIPE}}',
+	'{{insert_form.formData.SIT_ATUAL}}',
+	'{{insert_form.formData.DATA_RETORNO}}',
+	'{{insert_form.formData.FOTO}}',
+	'{{insert_form.formData.ANIVERSARIO}}',
+	'{{insert_form.formData.EMAIL}}'
+);
