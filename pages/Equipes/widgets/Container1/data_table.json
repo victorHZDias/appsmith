@@ -30,7 +30,7 @@
         {"key": "primaryColumns.EMAIL.computedValue"}
     ],
     "leftColumn": 1,
-    "delimiter": ",",
+    "delimiter": ";",
     "defaultSelectedRowIndex": "0",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
