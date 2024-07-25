@@ -13,7 +13,7 @@
       "type": "FIXED"
     },
     "navigationSetting": {
-      "showNavbar": false,
+      "showNavbar": true,
       "orientation": "top",
       "navStyle": "stacked",
       "position": "static",
@@ -25,7 +25,7 @@
     }
   },
   "color": "#E3DEFF",
-  "icon": "hat",
+  "icon": "open-new-tab",
   "unpublishedCustomJSLibs": [
     {
       "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
