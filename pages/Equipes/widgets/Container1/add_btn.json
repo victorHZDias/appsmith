@@ -8,7 +8,7 @@
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "kby34l9nbb",
     "topRow": 0,
-    "bottomRow": 8,
+    "bottomRow": 7,
     "parentRowSpace": 10,
     "isVisible": "true",
     "type": "ICON_BUTTON_WIDGET",
