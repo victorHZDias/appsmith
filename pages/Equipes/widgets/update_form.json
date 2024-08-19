@@ -272,7 +272,7 @@
                 "originalIdentifier": "SIT_ATUAL",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "children": {},
-                "options": "[\n  {\n    \"label\": \"ATESTADO\",\n    \"value\": \"ATESTADO\"\n  },\n  {\n    \"label\": \"ATIVO\",\n    \"value\": \"ATIVO\"\n  },\n  {\n    \"label\": \"FALTOU\",\n    \"value\": \"FALTOU\"\n  },\n  {\n    \"label\": \"BCO_HORAS\",\n    \"value\": \"BCO_HORAS\"\n  },\n  {\n    \"label\": \"FERIAS\",\n    \"value\": \"FERIAS\"\n  }\n]",
+                "options": "[\n  {\n    \"label\": \"ATESTADO\",\n    \"value\": \"ATESTADO\"\n  },\n  {\n    \"label\": \"ATIVO\",\n    \"value\": \"ATIVO\"\n  },\n  {\n    \"label\": \"FALTOU\",\n    \"value\": \"FALTOU\"\n  },\n\t  {\n    \"label\": \"FOLGA\",\n    \"value\": \"FOLGA\"\n  },\n  {\n    \"label\": \"BCO_HORAS\",\n    \"value\": \"BCO_HORAS\"\n  },\n  {\n    \"label\": \"FERIAS\",\n    \"value\": \"FERIAS\"\n  }\n]",
                 "position": 6,
                 "isDisabled": false,
                 "sourceData": "ATIVO",
