@@ -182,7 +182,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 92012663,
                 "fieldType": "Number Input"
             },
             "Nome_Colaborador": {
@@ -249,7 +249,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 612436,
+                "sourceData": 4515049,
                 "fieldType": "Number Input"
             },
             "SIT_ATUAL": {

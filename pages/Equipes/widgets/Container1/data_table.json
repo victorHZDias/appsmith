@@ -58,7 +58,7 @@
         }
     },
     "borderRadius": "1.5rem",
-    "columnUpdatedAt": 1724270360549,
+    "columnUpdatedAt": 1724272219010,
     "primaryColumnId": "id",
     "columnSizeMap": {
         "task": 245,
@@ -388,7 +388,7 @@
             "allowCellWrapping": false,
             "index": 10,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "id",
             "fontStyle": "BOLD",
             "textColor": "",

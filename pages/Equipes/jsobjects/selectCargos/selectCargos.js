@@ -21,10 +21,7 @@ export default {
 						});
 
     }
-						cargos.push({
-							label: "MARCOS",
-							value: "MARCOS"
-						});
+			
 		return cargos.sort((a, b) => a.label.localeCompare(b.label));
 	},
 	
