@@ -52,7 +52,7 @@
         {"key": "onDropdownClose"}
     ],
     "labelPosition": "Top",
-    "onDropdownClose": "{{SelectQuery1.run()}}",
+    "onDropdownClose": "{{SelectQuery.run()}}",
     "sourceData": "{{selectCargos.selectReporte.data}}",
     "key": "q0gkdzeih6",
     "labelTextSize": "0.875rem",
@@ -71,6 +71,6 @@
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
     "onFilterUpdate": "{{SelectQuery1.run()}}",
-    "onOptionChange": "{{SelectQuery1.run()}}",
+    "onOptionChange": "{{SelectQuery.run()}}",
     "minDynamicHeight": 4
 }
