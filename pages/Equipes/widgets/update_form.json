@@ -279,7 +279,7 @@
                 "boxShadow": "none",
                 "minDate": "1920-12-31T18:30:00.000Z",
                 "dateFormat": "DD/MM/YYYY",
-                "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.ANIVERSARIO, \"YYYY-MM-DD\").format(\"YYYY-MM-DD\")))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.ANIVERSARIO)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accessor": "ANIVERSARIO",
                 "shortcuts": false,
                 "convertToISO": false,

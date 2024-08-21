@@ -294,7 +294,7 @@
             "isVisible": true,
             "label": "ANIVERSARIO",
             "fontStyle": "BOLD",
-            "inputFormat": "YYYY-MM-DDTHH:mm:ss",
+            "inputFormat": "YYYY-MM-DD",
             "textColor": "",
             "columnType": "date",
             "thousandSeparator": true,
