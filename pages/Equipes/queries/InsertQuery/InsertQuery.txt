@@ -1,15 +1,15 @@
-INSERT INTO Equipe_Completa (
-	RU,
-	MATRICULA,
-	Nome_Colaborador,
-	CARGO,
-	REPORTE,
-	EQUIPE,
-	SIT_ATUAL,
-	DATA_RETORNO,
-	FOTO,
-	ANIVERSARIO,
-	EMAIL
+INSERT INTO public."Equipe_Completa" (
+	"RU",
+	"MATRICULA",
+	"Nome_Colaborador",
+	"CARGO",
+	"REPORTE",
+	"EQUIPE",
+	"SIT_ATUAL",
+	"DATA_RETORNO",
+	"FOTO",
+	"ANIVERSARIO",
+	"EMAIL"
 )
 VALUES (
 	'{{insert_form.formData.RU}}',

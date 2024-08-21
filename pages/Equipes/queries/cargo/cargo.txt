@@ -1,1 +1,1 @@
-SELECT DISTINCT CARGO FROM Equipe_Completa;
+SELECT DISTINCT "CARGO" FROM public."Equipe_Completa";

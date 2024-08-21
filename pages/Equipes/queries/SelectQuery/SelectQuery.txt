@@ -1,6 +1,6 @@
-SELECT * FROM Equipe_Completa
+SELECT * FROM public."Equipe_Completa"
 WHERE 
-  REPORTE = (
+  "REPORTE" = (
     SELECT '{{SelectReporte.selectedOptionLabel}}'
     WHERE '{{SelectReporte.selectedOptionLabel}}' != ''
   )

@@ -1,3 +1,2 @@
-
-SELECT Nome_Colaborador FROM Equipe_Completa
-WHERE CARGO='AVANÇADO';
+SELECT "Nome_Colaborador" FROM public."Equipe_Completa"
+WHERE "CARGO"='AVANÇADO';

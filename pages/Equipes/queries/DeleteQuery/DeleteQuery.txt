@@ -1,2 +1,2 @@
-DELETE FROM Equipe_Completa
-  WHERE id = {{data_table.triggeredRow.id}};
+DELETE FROM public."Equipe_Completa"
+  WHERE "id" = {{data_table.triggeredRow.id}};

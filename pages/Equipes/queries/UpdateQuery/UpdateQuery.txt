@@ -1,13 +1,12 @@
-UPDATE Equipe_Completa SET
-		RU = '{{update_form.fieldState.RU.isVisible ? update_form.formData.RU : update_form.sourceData.RU}}',
-		MATRICULA = '{{update_form.fieldState.MATRICULA.isVisible ? update_form.formData.MATRICULA : update_form.sourceData.MATRICULA}}',
-    Nome_Colaborador = '{{update_form.fieldState.Nome_Colaborador.isVisible ? update_form.formData.Nome_Colaborador : update_form.sourceData.Nome_Colaborador}}',
-		CARGO = '{{update_form.fieldState.CARGO.isVisible ? update_form.formData.CARGO : update_form.sourceData.CARGO}}',
-		REPORTE = '{{update_form.fieldState.REPORTE.isVisible ? update_form.formData.REPORTE : update_form.sourceData.REPORTE}}',
-		EQUIPE = '{{update_form.fieldState.EQUIPE.isVisible ? update_form.formData.EQUIPE : update_form.sourceData.EQUIPE}}',
-		SIT_ATUAL = '{{update_form.fieldState.SIT_ATUAL.isVisible ? update_form.formData.SIT_ATUAL : update_form.sourceData.SIT_ATUAL}}',
-		DATA_RETORNO = '{{update_form.fieldState.DATA_RETORNO.isVisible ? update_form.formData.DATA_RETORNO : update_form.sourceData.DATA_RETORNO}}',
-		FOTO = '{{update_form.fieldState.FOTO.isVisible ? update_form.formData.FOTO : update_form.sourceData.FOTO}}',
-		ANIVERSARIO = '{{update_form.fieldState.ANIVERSARIO.isVisible ? update_form.formData.ANIVERSARIO : update_form.sourceData.ANIVERSARIO}}',
-		EMAIL = '{{update_form.fieldState.EMAIL.isVisible ? update_form.formData.EMAIL : update_form.sourceData.EMAIL}}'
-  WHERE id = {{data_table.selectedRow.id}};
+UPDATE public."Equipe_Completa" SET
+		"RU" = '{{update_form.fieldState.RU.isVisible ? update_form.formData.RU : update_form.sourceData.RU}}',
+		"MATRICULA" = '{{update_form.fieldState.MATRICULA.isVisible ? update_form.formData.MATRICULA : update_form.sourceData.MATRICULA}}',
+    "Nome_Colaborador" = '{{update_form.fieldState.Nome_Colaborador.isVisible ? update_form.formData.Nome_Colaborador : update_form.sourceData.Nome_Colaborador}}',
+		"CARGO" = '{{update_form.fieldState.CARGO.isVisible ? update_form.formData.CARGO : update_form.sourceData.CARGO}}',
+		"REPORTE" = '{{update_form.fieldState.REPORTE.isVisible ? update_form.formData.REPORTE : update_form.sourceData.REPORTE}}',
+		"EQUIPE" = '{{update_form.fieldState.EQUIPE.isVisible ? update_form.formData.EQUIPE : update_form.sourceData.EQUIPE}}',
+		"SIT_ATUAL" = '{{update_form.fieldState.SIT_ATUAL.isVisible ? update_form.formData.SIT_ATUAL : update_form.sourceData.SIT_ATUAL}}',
+		"DATA_RETORNO" = '{{update_form.fieldState.DATA_RETORNO.isVisible ? update_form.formData.DATA_RETORNO : update_form.sourceData.DATA_RETORNO}}',
+		"ANIVERSARIO" = '{{update_form.fieldState.ANIVERSARIO.isVisible ? update_form.formData.ANIVERSARIO : update_form.sourceData.ANIVERSARIO}}',
+		"EMAIL" = '{{update_form.fieldState.EMAIL.isVisible ? update_form.formData.EMAIL : update_form.sourceData.EMAIL}}'
+  WHERE "id" = {{data_table.selectedRow.id}};

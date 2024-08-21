@@ -29,16 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Equipes_situacao",
-              "name": "situacao",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Equipes_cargo",
               "name": "cargo",
               "confirmBeforeExecute": false,
@@ -57,6 +47,14 @@
             {
               "id": "Equipes_reporte",
               "name": "reporte",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Equipes_situacao",
+              "name": "situacao",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

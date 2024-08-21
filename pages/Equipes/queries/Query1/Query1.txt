@@ -1,1 +1,1 @@
-SELECT * FROM Equipe_Completa;
+SELECT * FROM public."Equipe_Completa" LIMIT 10;
