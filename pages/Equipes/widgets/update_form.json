@@ -185,9 +185,6 @@
       "key": "schema.__root_schema__.children.SIT_ATUAL.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.DATA_RETORNO.defaultValue"
-    },
-    {
       "key": "schema.__root_schema__.children.DATA_RETORNO.borderRadius"
     },
     {
@@ -237,6 +234,9 @@
     },
     {
       "key": "schema.__root_schema__.children.ANIVERSARIO.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.DATA_RETORNO.defaultValue"
     }
   ],
   "dynamicTriggerPathList": [
@@ -334,20 +334,25 @@
           "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "boxShadow": "none",
           "children": {},
+          "closeOnSelection": false,
+          "convertToISO": false,
           "dataType": "null",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.DATA_RETORNO))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
+          "dateFormat": "YYYY-MM-DD",
+          "defaultValue": "",
+          "fieldType": "Datepicker",
           "identifier": "DATA_RETORNO",
           "isCustomField": false,
           "isDisabled": false,
           "isRequired": false,
-          "isSpellCheck": false,
           "isVisible": true,
           "label": "DATA RETORNO",
           "labelTextSize": "0.875rem",
+          "maxDate": "2121-12-31T18:29:00.000Z",
+          "minDate": "1920-12-31T18:30:00.000Z",
           "originalIdentifier": "DATA_RETORNO",
-          "position": 7
+          "position": 7,
+          "shortcuts": false,
+          "timePrecision": "minute"
         },
         "EMAIL": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -413,7 +418,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "MATRICULA",
           "position": 1,
-          "sourceData": 92012663
+          "sourceData": 92013343
         },
         "Nome_Colaborador": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -480,7 +485,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "RU",
           "position": 0,
-          "sourceData": 4515049
+          "sourceData": 4876546
         },
         "SIT_ATUAL": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
