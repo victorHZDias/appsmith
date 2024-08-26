@@ -426,7 +426,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "MATRICULA",
           "position": 1,
-          "sourceData": 92012555
+          "sourceData": 92013226
         },
         "Nome_Colaborador": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -493,7 +493,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "RU",
           "position": 0,
-          "sourceData": 4301622
+          "sourceData": 1012484
         },
         "SIT_ATUAL": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
