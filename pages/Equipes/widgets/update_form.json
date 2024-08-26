@@ -5,7 +5,7 @@
   "borderColor": "#93c5fd",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "3",
-  "bottomRow": 89,
+  "bottomRow": 88,
   "bottomRowBeforeCollapse": 89,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
@@ -191,9 +191,6 @@
       "key": "schema.__root_schema__.children.DATA_RETORNO.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.ANIVERSARIO.defaultValue"
-    },
-    {
       "key": "schema.__root_schema__.children.ANIVERSARIO.borderRadius"
     },
     {
@@ -216,6 +213,9 @@
     },
     {
       "key": "schema.__root_schema__.children.EQUIPE.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.ANIVERSARIO.defaultValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -233,15 +233,21 @@
       "key": "onSubmit"
     },
     {
-      "key": "schema.__root_schema__.children.ANIVERSARIO.defaultValue"
+      "key": "schema.__root_schema__.children.DATA_RETORNO.defaultValue"
     },
     {
-      "key": "schema.__root_schema__.children.DATA_RETORNO.defaultValue"
+      "key": "schema.__root_schema__.children.ANIVERSARIO.defaultValue"
     }
   ],
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
+    },
+    {
+      "key": "schema.__root_schema__.children.ANIVERSARIO.onFocus"
+    },
+    {
+      "key": "schema.__root_schema__.children.ANIVERSARIO.onBlur"
     }
   ],
   "fieldLimitExceeded": false,
@@ -288,7 +294,7 @@
           "convertToISO": false,
           "dataType": "string",
           "dateFormat": "DD/MM/YYYY",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (moment(sourceData.ANIVERSARIO)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (ajustData.myFun1.data))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "fieldType": "Datepicker",
           "identifier": "ANIVERSARIO",
           "isCustomField": false,
@@ -299,11 +305,13 @@
           "labelTextSize": "0.875rem",
           "maxDate": "2121-12-31T18:29:00.000Z",
           "minDate": "1920-12-31T18:30:00.000Z",
+          "onBlur": "",
+          "onFocus": "",
           "originalIdentifier": "ANIVERSARIO",
           "position": 9,
           "shortcuts": false,
           "sourceData": "2024-12-20",
-          "timePrecision": "minute"
+          "timePrecision": "None"
         },
         "CARGO": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -418,7 +426,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "MATRICULA",
           "position": 1,
-          "sourceData": 92013343
+          "sourceData": 92012555
         },
         "Nome_Colaborador": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -485,7 +493,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "RU",
           "position": 0,
-          "sourceData": 4876546
+          "sourceData": 4301622
         },
         "SIT_ATUAL": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",

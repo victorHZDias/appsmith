@@ -149,6 +149,9 @@
     },
     {
       "key": "onSort"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
   "enableClientSideSearch": true,
@@ -157,6 +160,7 @@
   "hideCard": false,
   "horizontalAlignment": "LEFT",
   "iconSVG": "/static/media/icon.db8a9cbd.svg",
+  "inlineEditingSaveOption": "ROW_LEVEL",
   "isLoading": false,
   "isSortable": true,
   "isVisible": "true",
@@ -169,6 +173,7 @@
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
   "onPageChange": "{{SelectQuery1.run()}}",
+  "onRowSelected": "{{ajustData.myFun1();}}",
   "onSearchTextChanged": "{{SelectQuery1.run()}}",
   "onSort": "{{SelectQuery.run()}}",
   "parentColumnSpace": 16.3125,
@@ -191,7 +196,7 @@
       "horizontalAlignment": "LEFT",
       "id": "ANIVERSARIO",
       "index": 9,
-      "inputFormat": "YYYY-MM-DD",
+      "inputFormat": "DD/MM/YYYY",
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -588,6 +593,7 @@
   "rightColumn": 64,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{SelectQuery.data}}",
   "textSize": "0.875rem",
   "topRow": 7,
