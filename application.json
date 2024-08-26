@@ -1,43 +1,56 @@
 {
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#E3DEFF",
+  "evaluationVersion": 2,
+  "icon": "open-new-tab",
   "pages": [
     {
       "id": "Equipes",
       "isDefault": true
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
     "navigationSetting": {
-      "showNavbar": true,
-      "orientation": "top",
-      "navStyle": "stacked",
-      "position": "static",
-      "itemStyle": "text",
       "colorStyle": "light",
+      "itemStyle": "text",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "stacked",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
       "showSignIn": true
-    }
-  },
-  "color": "#E3DEFF",
-  "icon": "open-new-tab",
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
     },
-    {
-      "uidString": "dcodeIO_https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
     }
-  ],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }
