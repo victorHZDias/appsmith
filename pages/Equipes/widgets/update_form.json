@@ -206,9 +206,6 @@
       "key": "schema.__root_schema__.children.EMAIL.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.REPORTE.options"
-    },
-    {
       "key": "schema.__root_schema__.children.CARGO.options"
     },
     {
@@ -216,6 +213,9 @@
     },
     {
       "key": "schema.__root_schema__.children.ANIVERSARIO.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.REPORTE.options"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -426,7 +426,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "MATRICULA",
           "position": 1,
-          "sourceData": 92013226
+          "sourceData": 92013048
         },
         "Nome_Colaborador": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -467,7 +467,7 @@
           "isVisible": true,
           "label": "REPORTE",
           "labelTextSize": "0.875rem",
-          "options": "{{selectCargos.selectReporte()}}",
+          "options": "{{selectCargos.selectReporte.data}}",
           "originalIdentifier": "REPORTE",
           "position": 4,
           "serverSideFiltering": false,
@@ -493,7 +493,7 @@
           "labelTextSize": "0.875rem",
           "originalIdentifier": "RU",
           "position": 0,
-          "sourceData": 1012484
+          "sourceData": 4640635
         },
         "SIT_ATUAL": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",

@@ -1,2 +1,2 @@
-SELECT "Nome_Colaborador" FROM public."Equipe_Completa"
+SELECT DISTINCT "Nome_Colaborador" FROM public."Equipe_Completa"
 WHERE "CARGO"='AVANÇADO' or "CARGO"='COORDENADOR';

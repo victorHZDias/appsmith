@@ -141,9 +141,6 @@
       "key": "schema.__root_schema__.children.CARGO.accentColor"
     },
     {
-      "key": "schema.__root_schema__.children.REPORTE.defaultValue"
-    },
-    {
       "key": "schema.__root_schema__.children.REPORTE.borderRadius"
     },
     {
@@ -186,9 +183,6 @@
       "key": "schema.__root_schema__.children.CARGO.options"
     },
     {
-      "key": "schema.__root_schema__.children.REPORTE.options"
-    },
-    {
       "key": "schema.__root_schema__.children.EQUIPE.options"
     },
     {
@@ -196,6 +190,9 @@
     },
     {
       "key": "schema.__root_schema__.children.EQUIPE.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.REPORTE.options"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -416,7 +413,7 @@
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (`{{}}`))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+          "defaultValue": "",
           "fieldType": "Select",
           "identifier": "REPORTE",
           "isCustomField": false,
@@ -426,7 +423,7 @@
           "isVisible": true,
           "label": "REPORTE",
           "labelTextSize": "0.875rem",
-          "options": "{{selectCargos.selectReporte()}}",
+          "options": "{{reporte.data}}",
           "originalIdentifier": "REPORTE",
           "position": 4,
           "serverSideFiltering": false,

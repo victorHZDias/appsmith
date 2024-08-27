@@ -174,7 +174,7 @@
   "leftColumn": 0,
   "onPageChange": "{{SelectQuery1.run()}}",
   "onRowSelected": "{{ajustData.myFun1();}}",
-  "onSearchTextChanged": "{{SelectQuery1.run()}}",
+  "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
   "parentColumnSpace": 16.3125,
   "parentId": "59rw5mx0bq",
