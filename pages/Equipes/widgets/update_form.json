@@ -6,7 +6,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "3",
   "bottomRow": 88,
-  "bottomRowBeforeCollapse": 89,
+  "bottomRowBeforeCollapse": 88,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "childStylesheet": {
     "ARRAY": {
@@ -262,7 +262,7 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}\n{{reporte1.run()}}\n{{cargo1.run()}}\n{{situacao.run()}}\n{{cargo1.run()}}",
-  "originalBottomRow": 89,
+  "originalBottomRow": 88,
   "originalTopRow": 0,
   "parentColumnSpace": 16.3125,
   "parentId": "0",

@@ -423,7 +423,7 @@
           "isVisible": true,
           "label": "REPORTE",
           "labelTextSize": "0.875rem",
-          "options": "{{reporte.data}}",
+          "options": "{{selectCargos.selectReporte.data}}",
           "originalIdentifier": "REPORTE",
           "position": 4,
           "serverSideFiltering": false,
