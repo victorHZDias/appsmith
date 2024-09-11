@@ -256,7 +256,7 @@
           "closeOnSelection": false,
           "convertToISO": false,
           "dataType": "string",
-          "dateFormat": "YYYY-MM-DD",
+          "dateFormat": "DD/MM/YYYY",
           "defaultValue": "",
           "fieldType": "Datepicker",
           "identifier": "ANIVERSARIO",
