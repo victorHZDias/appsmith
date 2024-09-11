@@ -7,7 +7,6 @@ INSERT INTO public."Equipe_Completa" (
 	"EQUIPE",
 	"SIT_ATUAL",
 	"DATA_RETORNO",
-	"FOTO",
 	"ANIVERSARIO",
 	"EMAIL"
 )
@@ -20,7 +19,6 @@ VALUES (
 	'{{insert_form.formData.EQUIPE}}',
 	'{{insert_form.formData.SIT_ATUAL}}',
 	'{{insert_form.formData.DATA_RETORNO}}',
-	'{{insert_form.formData.FOTO}}',
 	'{{insert_form.formData.ANIVERSARIO}}',
 	'{{insert_form.formData.EMAIL}}'
 );

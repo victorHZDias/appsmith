@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"Equipe_Completa\" (\n\t\"RU\",\n\t\"MATRICULA\",\n\t\"Nome_Colaborador\",\n\t\"CARGO\",\n\t\"REPORTE\",\n\t\"EQUIPE\",\n\t\"SIT_ATUAL\",\n\t\"DATA_RETORNO\",\n\t\"FOTO\",\n\t\"ANIVERSARIO\",\n\t\"EMAIL\"\n)\nVALUES (\n\t'{{insert_form.formData.RU}}',\n\t'{{insert_form.formData.MATRICULA}}',\n\t'{{insert_form.formData.Nome_Colaborador}}',\n\t'{{insert_form.formData.CARGO}}',\n\t'{{insert_form.formData.REPORTE}}',\n\t'{{insert_form.formData.EQUIPE}}',\n\t'{{insert_form.formData.SIT_ATUAL}}',\n\t'{{insert_form.formData.DATA_RETORNO}}',\n\t'{{insert_form.formData.FOTO}}',\n\t'{{insert_form.formData.ANIVERSARIO}}',\n\t'{{insert_form.formData.EMAIL}}'\n);",
+      "body": "INSERT INTO public.\"Equipe_Completa\" (\n\t\"RU\",\n\t\"MATRICULA\",\n\t\"Nome_Colaborador\",\n\t\"CARGO\",\n\t\"REPORTE\",\n\t\"EQUIPE\",\n\t\"SIT_ATUAL\",\n\t\"DATA_RETORNO\",\n\t\"ANIVERSARIO\",\n\t\"EMAIL\"\n)\nVALUES (\n\t'{{insert_form.formData.RU}}',\n\t'{{insert_form.formData.MATRICULA}}',\n\t'{{insert_form.formData.Nome_Colaborador}}',\n\t'{{insert_form.formData.CARGO}}',\n\t'{{insert_form.formData.REPORTE}}',\n\t'{{insert_form.formData.EQUIPE}}',\n\t'{{insert_form.formData.SIT_ATUAL}}',\n\t'{{insert_form.formData.DATA_RETORNO}}',\n\t'{{insert_form.formData.ANIVERSARIO}}',\n\t'{{insert_form.formData.EMAIL}}'\n);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
