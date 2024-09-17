@@ -36,6 +36,7 @@
     "ANIVERSARIO",
     "EMAIL",
     "id",
+    "Foto",
     "customColumn1"
   ],
   "columnSizeMap": {
@@ -43,7 +44,7 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1724272219010,
+  "columnUpdatedAt": 1726106099805,
   "columnWidthMap": {
     "ANIVERSARIO": 284,
     "DATA_RETORNO": 151,
@@ -127,6 +128,9 @@
     },
     {
       "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.Foto.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -348,6 +352,40 @@
       "notation": "standard",
       "originalId": "EQUIPE",
       "selectOptions": "[\n  { \"label\":\"Marcos\",\n    \"value\": \"MARCOS\"\n  },\n  {\"label\":\"Telecobrança\",\n    \"value\": \"Telecobrança\"\n  },\n  {\"label\":\"Geral\",\n    \"value\": \"COBRANÇA_GERAL\"\n  }\n]",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "Foto": {
+      "alias": "Foto",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "#dbeafe",
+      "columnType": "text",
+      "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Foto\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "BOLD",
+      "horizontalAlignment": "LEFT",
+      "id": "Foto",
+      "index": 11,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Foto",
+      "notation": "standard",
+      "originalId": "Foto",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",

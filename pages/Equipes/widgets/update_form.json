@@ -216,6 +216,18 @@
     },
     {
       "key": "schema.__root_schema__.children.REPORTE.options"
+    },
+    {
+      "key": "schema.__root_schema__.children.Foto.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.children.Foto.borderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.children.Foto.accentColor"
+    },
+    {
+      "key": "schema.__root_schema__.children.DATA_RETORNO.defaultValue"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -346,7 +358,7 @@
           "convertToISO": false,
           "dataType": "null",
           "dateFormat": "YYYY-MM-DD",
-          "defaultValue": "",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (data_table.selectedRow.DATA_RETORNO))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
           "fieldType": "Datepicker",
           "identifier": "DATA_RETORNO",
           "isCustomField": false,
@@ -405,6 +417,28 @@
           "position": 5,
           "serverSideFiltering": false,
           "sourceData": "MARCOS"
+        },
+        "Foto": {
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "accessor": "Foto",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "boxShadow": "none",
+          "children": {},
+          "dataType": "string",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Foto))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+          "fieldType": "Text Input",
+          "iconAlign": "left",
+          "identifier": "Foto",
+          "isCustomField": false,
+          "isDisabled": false,
+          "isRequired": false,
+          "isSpellCheck": false,
+          "isVisible": false,
+          "label": "Foto",
+          "labelTextSize": "0.875rem",
+          "originalIdentifier": "Foto",
+          "position": 10,
+          "sourceData": "https://raw.githubusercontent.com/victorHZDias/colaboradores/main/ADOILSON%20LIMA%20DO%20NASCIMENTO%20-%2018.04.jpg"
         },
         "MATRICULA": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",

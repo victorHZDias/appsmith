@@ -1,6 +1,6 @@
 export default {
 	myFun1 (){
-		dataEntrada=data_table.selectedRow.ANIVERSARIO
+		let dataEntrada=data_table.selectedRow.ANIVERSARIO
 		const partesData = dataEntrada.split("/");
 		const dia = parseInt(partesData[0]);
 		const mes = parseInt(partesData[1]) - 1; 
