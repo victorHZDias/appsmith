@@ -6,7 +6,7 @@ UPDATE public."Equipe_Completa" SET
 		"REPORTE" = '{{update_form.fieldState.REPORTE.isVisible ? update_form.formData.REPORTE : update_form.sourceData.REPORTE}}',
 		"EQUIPE" = '{{update_form.fieldState.EQUIPE.isVisible ? update_form.formData.EQUIPE : update_form.sourceData.EQUIPE}}',
 		"SIT_ATUAL" = '{{update_form.fieldState.SIT_ATUAL.isVisible ? update_form.formData.SIT_ATUAL : update_form.sourceData.SIT_ATUAL}}',
-		"DATA_RETORNO" = '{{update_form.fieldState.DATA_RETORNO.isVisible ? update_form.formData.DATA_RETORNO : update_form.sourceData.DATA_RETORNO}}',
-		"ANIVERSARIO" = '{{update_form.fieldState.ANIVERSARIO.isVisible ? update_form.formData.ANIVERSARIO : update_form.sourceData.ANIVERSARIO}}',
+		"DATA_RETORNO" = '{{update_form.fieldState.DATA_RETORNO.isVisible ? update_form.formData.DATA_RETORNO.toString() : ""}}',
+		"ANIVERSARIO" = '{{update_form.fieldState.ANIVERSARIO.isVisible ? update_form.formData.ANIVERSARIO.toString() : ""}}',
 		"EMAIL" = '{{update_form.fieldState.EMAIL.isVisible ? update_form.formData.EMAIL : update_form.sourceData.EMAIL}}'
   WHERE "id" = {{data_table.selectedRow.id}};
